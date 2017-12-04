@@ -3,8 +3,7 @@
 
 勘误格式如下：
 ```
-
-P69，第35行，印次1， 应改为：
-h.phdr = (Elf64_Phdr *)(h.mem + h.ehdr->e_phoff);
-
+页码：61 • 行数：1 • 印次 1
+应改为：
+user_regs_struct结构体多了个空格
 ```

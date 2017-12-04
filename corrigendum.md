@@ -15,3 +15,8 @@ h.shdr = (Elf64_Shdr *)(h.mem + h.ehdr->e_shoff);
 ```
 unsigned long shellcode_size = f2 - f1;
 ```
+4.页码：14 • 行数：19 • 印次 1
+应改为：
+```
+uint32_t p_flags; (segment flags, I.E execute|read|write)
+```

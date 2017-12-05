@@ -15,7 +15,12 @@ h.shdr = (Elf64_Shdr *)(h.mem + h.ehdr->e_shoff);
 ```
 unsigned long shellcode_size = f2 - f1;
 ```
-4.前言页码：3 • 行数：6 • 印次 1 
+4.页码：14 • 行数：19 • 印次 1
+应改为：
+```
+uint32_t p_flags; (segment flags, I.E execute|read|write)
+```
+5.前言页码：3 • 行数：6 • 印次 1 
 应改为：
 ```
 第 8 章，ECFS —— 扩展核心文件快照技术，介绍 ECFS 这一用于进程内存取证分析的新开源产品。

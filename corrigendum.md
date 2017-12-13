@@ -25,3 +25,9 @@ uint32_t p_flags; (segment flags, I.E execute|read|write)
 ```
 第 8 章，ECFS —— 扩展核心文件快照技术，介绍 ECFS 这一用于进程内存取证分析的新开源产品。
 ```
+
+6.页码：38 • 行数：28 • 印次 1 
+应改为：
+```
+0x80480e8 - (0x80480df + sizeof(uint32_t))
+```
